@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://civicfix-ks7w.onrender.com";
 
 // 🔐 GET TOKEN HEADER
 const getAuthHeaders = () => {
