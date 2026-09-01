@@ -16,8 +16,7 @@ app = FastAPI()
 # ✅ CORS FIX (PUT THIS AT TOP BEFORE ROUTES)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",
-    "https://your-vercel-app.vercel.app"],  # 👈 IMPORTANT (NOT "*")
+    allow_origins=["https://frontend-lovat-eight-25.vercel.app/"],  # 👈 IMPORTANT (NOT "*")
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
