@@ -1,0 +1,117 @@
+/* Page background */
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  margin-top: 20px;
+}
+/* Container */
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.card h4 {
+  margin-bottom: 5px;
+}
+/* Card */
+.card {
+    
+  word-wrap: break-word;
+
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+/* Inputs */
+input, textarea, select {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #1e4fd1;
+}
+
+/* Status */
+.status-open {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.status-resolved {
+  color: #10b981;
+  font-weight: 600;
+}
+
+/* Auth page center */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Auth card */
+.auth-card {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+/* Toggle button */
+.toggle-btn {
+  margin-top: 10px;
+  background: transparent;
+  color: #2563eb;
+}
+
+/* Prevent horizontal scroll globally */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.active-btn {
+  background-color: #007bff;
+  color: white;
+  margin-right: 5px;
+}
+
+button {
+  margin-right: 5px;
+}
